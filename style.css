@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:wght@600&display=swap');
+
+
+body{
+    background-color: #ffffff;
+    padding: 0%;
+}
+
+header{
+    background-color: white;
+    position:relative;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4%;
+    border-bottom: solid rgb(0, 153, 255);
+}
+
+
+.header-itens_esq{
+    color: #000000;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    padding: 10px;
+    width: 98%;
+    background-image: url(/img/background1\ 1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 46px;
+}
+
+.section_esq{
+    margin-left: 30px;
+     margin-top: 100px;
+}
+
+h2{
+    justify-content: center;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    pointer-events: none;
+}
+
+img::selection{
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #7700ff;
+    transition: all 600ms ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 75px;
+  }
+  
+  .item {
+    width: 330px;
+    height: 470px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .cyan {
+    background: rgb(8, 129, 229);
+  }
+
+  #cmd-container {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    border: 1px solid #00FF00;
+    height: 50em;
+}
+
+.prompt {
+    background-color: #000000;
+    color: #00FF00;
+}
+
+.output {
+    color: white;
+}
+
+.input {
+    background-color: #000000;
+    color: #00FF00;
+    border-top: solid white;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#p{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 1px;
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#acerto{
+    color: rgb(0, 255, 17);
+}
+
+#erro{
+    color: red;
+}
+
+br::selection{
+    pointer-events: none;
+}
+
+#topicList{
+    color:#7700ff;
+}
+
+.topicos{
+    text-align: center;
+}
+
+#fala{
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
+
+footer{
+  padding-left: 2em;
+  display: flex;
+  border-top: solid #000000;
+}
+
+.footerLeft{
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h3{
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 19em;
+  font-family: 'Aldrich', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+}
